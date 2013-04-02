@@ -1,0 +1,15 @@
+Contemporaneous
+---------------
+An extension for the Chrome browser that looks for a VIAF URI in a page and will try to locate authors with the same birth year in the British National Bibliography.
+
+Source code for the extension is in /source
+
+The extension itself is contemporaneous.crx. To install:
+
+Download the extension file from the website and save it to your computer.
+Click the wrench icon on the browser toolbar.
+Select Tools > Extensions.
+Locate the extension file on your computer and drag the file onto the Extensions page.
+Review the list of permissions in the dialog that appears. If you would like to proceed, click Install.
+
+Note that Google recommend "you only add extensions from other websites that you trust."

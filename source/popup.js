@@ -6,7 +6,7 @@ var contempAuthors = {
    * @type {string}
    * @private
    */
-  searchOnBNB_: 'http://bnb.data.bl.uk/sparql?query=PREFIX+rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+owl%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX+bio%3A++%3Chttp%3A%2F%2Fpurl.org%2Fvocab%2Fbio%2F0.1%2F%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0ASELECT+%3Fpersonb+%3Fname+%3Fdob%0D%0AWHERE+%7B%0D%0A%3Fpersona+owl%3AsameAs+%3C' +
+  searchOnBNB_: 'http://bnb.data.bl.uk/sparql?query=PREFIX+rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+owl%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX+bio%3A++%3Chttp%3A%2F%2Fpurl.org%2Fvocab%2Fbio%2F0.1%2F%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0ASELECT+DISTINCT+%3Fpersonb+%3Fname+%3Fdob%0D%0AWHERE+%7B%0D%0A%3Fpersona+owl%3AsameAs+%3C' +
         encodeURIComponent(viafuri) +
         '%3E+.%0D%0A%3Fpersona+bio%3Aevent+%3Feventa+.%0D%0A%3Feventa+rdf%3Atype+bio%3ABirth+.%0D%0A%3Feventa+bio%3Adate+%3Fdob+.%0D%0A%3Feventb+bio%3Adate+%3Fdob+.+%0D%0A%3Feventb+rdf%3Atype+bio%3ABirth+.%0D%0A%3Fpersonb+bio%3Aevent+%3Feventb+.%0D%0A%3Fpersonb+foaf%3Aname+%3Fname%0D%0A%7D',
 
